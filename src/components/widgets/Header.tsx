@@ -16,12 +16,11 @@ export default component$(() => {
   return (
     <header
       id="header"
-      class={`sticky top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out ${
-        store.isScrolling
+      class={`sticky top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out ${store.isScrolling
           ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
           : ""
-      }`}
-      window:onScroll$={() => {
+        }`}
+      window: onScroll$={() => {
         if (!store.isScrolling && window.scrollY >= 10) {
           store.isScrolling = true;
         } else if (store.isScrolling && window.scrollY < 10) {
@@ -86,7 +85,7 @@ export default component$(() => {
                 href="https://github.com/onwidget/qwind"
                 class="btn btn-primary ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
-                Download
+                Say "hello"
               </a>
             </span>
           </div>

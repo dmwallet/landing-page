@@ -24,8 +24,8 @@ export default component$(() => {
       <Hero />
       <Features
         highlight="Features"
-        title="What you get with Qwind"
-        subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
+        title="What you get with DmWallet"
+        subtitle="swap, stake, farm, borrow, lend, and earn interest on your crypto."
         items={[
           {
             title: "Qwik + Tailwind CSS Integration",

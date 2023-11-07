@@ -1,12 +1,12 @@
 export const SITE = {
-  name: "Qwind",
+  name: "DMWallet",
 
   title:
-    "Qwind — Free template for Qwik + Tailwind CSS to build your new website.",
+    "DMWallet — Free personal DeFi assistant.",
   description:
-    "Qwind is a free and ready to start template to make your website using Qwik and Tailwind CSS.",
+    "🚀 DMWallet ⬩ Your personal DeFi asistant 🦊 Swap, Stake, Claim & more at elite speeds for free.",
 
-  origin: "https://qwind.pages.dev",
+  origin: "https://dmwallet.xyz",
   basePathname: "/",
   trailingSlash: true,
 };
