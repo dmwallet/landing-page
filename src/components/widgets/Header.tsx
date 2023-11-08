@@ -1,14 +1,9 @@
 import { component$, useStore } from "@builder.io/qwik";
-import { useContent } from "@builder.io/qwik-city";
+//import { useContent } from "@builder.io/qwik-city";
 
 import Logo from "~/components/common/Logo";
 import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
-import IconChevronDown from "../icons/IconChevronDown";
-import IconGithub from "../icons/IconGithub";
-import IconTwitter from "../icons/IconTwitter";
-import IconRocket from "../icons/IconRocket";
-import { IconDiscord } from "../icons/IconDiscord";
 import { IconTelegram } from "../icons/IconTelegram";
 import { IconWhatsapp } from "../icons/IconWhatsapp";
 
@@ -17,7 +12,7 @@ export default component$(() => {
     isScrolling: false,
   });
 
-  const { menu } = useContent();
+  //const { menu } = useContent();
 
   return (
     <header
