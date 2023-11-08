@@ -80,7 +80,7 @@ export const head: DocumentHead = ({ resolveValue }) => {
   const post = resolveValue(useGetPostBySlug) as Post;
 
   return {
-    title: `${post.title} — Qwind`,
+    title: `${post.title} — DmWallet`,
     meta: [
       {
         name: "description",

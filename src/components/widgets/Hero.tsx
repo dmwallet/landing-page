@@ -34,16 +34,18 @@ export default component$(() => {
                 <div class="flex w-full sm:w-auto">
                   <a
                     class="btn btn-primary sm:mb-0 w-full"
-                    href="https://github.com/onwidget/qwind"
+                    href="https://t.me/dmwallet_bot"
                     target="_blank"
                     rel="noopener"
                   >
                     Say "hello" and create wallet now
                   </a>
                 </div>
+                {/*
                 <div class="flex w-full sm:w-auto">
                   <button class="btn w-full bg-gray-50 dark:bg-transparent">Learn more</button>
                 </div>
+                */}
               </div>
             </div>
           </div>
@@ -53,7 +55,7 @@ export default component$(() => {
               layout="constrained"
               width={493}
               height={616}
-              alt="Qwind Hero Image (Cool dog)"
+              alt="DmWallet Hero Image"
               class="mx-auto lg:mr-0 w-full drop-shadow-2xl rounded-md"
               priority={true}
               breakpoints={[320, 480, 640, 768, 1024]}

@@ -5,6 +5,7 @@ import IconTwitter from "~/components/icons/IconTwitter"
 import IconInstagram from "~/components/icons/IconInstagram"
 import IconFacebook from "~/components/icons/IconFacebook"
 import IconGithub from "~/components/icons/IconGithub"
+import { IconDiscord } from "../icons/IconDiscord";
 
 export default component$(() => {
   const links = [
@@ -13,11 +14,6 @@ export default component$(() => {
       items: [
         { title: "Features", href: "#" },
         { title: "Security", href: "#" },
-        { title: "Team", href: "#" },
-        { title: "Enterprise", href: "#" },
-        { title: "Customer stories", href: "#" },
-        { title: "Pricing", href: "#" },
-        { title: "Resources", href: "#" },
       ],
     },
     {
@@ -25,19 +21,13 @@ export default component$(() => {
       items: [
         { title: "Developer API", href: "#" },
         { title: "Partners", href: "#" },
-        { title: "Atom", href: "#" },
-        { title: "Electron", href: "#" },
-        { title: "Qwind Desktop", href: "#" },
       ],
     },
     {
       title: "Support",
       items: [
         { title: "Docs", href: "#" },
-        { title: "Community Forum", href: "#" },
-        { title: "Professional Services", href: "#" },
-        { title: "Skills", href: "#" },
-        { title: "Status", href: "#" },
+        { title: "Community", href: "#" },
       ],
     },
     {
@@ -45,11 +35,6 @@ export default component$(() => {
       items: [
         { title: "About", href: "#" },
         { title: "Blog", href: "#" },
-        { title: "Careers", href: "#" },
-        { title: "Press", href: "#" },
-        { title: "Inclusion", href: "#" },
-        { title: "Social Impact", href: "#" },
-        { title: "Shop", href: "#" },
       ],
     },
   ];
@@ -57,11 +42,11 @@ export default component$(() => {
   const social = [
     { label: "Twitter", icon: IconTwitter, href: "#" },
     { label: "Instagram", icon: IconInstagram, href: "#" },
-    { label: "Facebook", icon: IconFacebook, href: "#" },
+    { label: "Discord", icon: IconDiscord, href: "#" },
     {
       label: "Github",
       icon: IconGithub,
-      href: "https://github.com/onwidget/qwind",
+      href: "https://github.com/dmwallet",
     },
   ];
 
@@ -72,12 +57,11 @@ export default component$(() => {
           <div class="col-span-12 lg:col-span-4 pr-8">
             <div class="mb-2">
               <Link class="inline-block font-bold text-xl" href={"/"}>
-                Qwind
+                DmWallet
               </Link>
             </div>
             <div class="text-sm text-gray-600 dark:text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi
-              risus tempus nulla
+              Easy to use and powerful DeFi wallet for everyone.
             </div>
           </div>
           {links.map(({ title, items }, index) => (
@@ -117,13 +101,7 @@ export default component$(() => {
           </ul>
 
           <div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
-            <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-            Made by{" "}
-            <a class="text-secondary-800 underline dark:text-gray-200" href="https://onwidget.com/">
-              {" "}
-              onWidget
-            </a>{" "}
-            · All rights reserved.
+            2023 © DmWallet · All rights reserved.
           </div>
         </div>
       </div>

@@ -5,6 +5,12 @@ import Logo from "~/components/common/Logo";
 import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
 import IconChevronDown from "../icons/IconChevronDown";
+import IconGithub from "../icons/IconGithub";
+import IconTwitter from "../icons/IconTwitter";
+import IconRocket from "../icons/IconRocket";
+import { IconDiscord } from "../icons/IconDiscord";
+import { IconTelegram } from "../icons/IconTelegram";
+import { IconWhatsapp } from "../icons/IconWhatsapp";
 
 export default component$(() => {
   const store = useStore({
@@ -17,8 +23,8 @@ export default component$(() => {
     <header
       id="header"
       class={`sticky top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out ${store.isScrolling
-          ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
-          : ""
+        ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
+        : ""
         }`}
       window: onScroll$={() => {
         if (!store.isScrolling && window.scrollY >= 10) {
@@ -39,6 +45,7 @@ export default component$(() => {
             <ToggleMenu />
           </div>
         </div>
+        {/*
         <nav
           class="items-center w-full md:w-auto hidden md:flex text-default overflow-y-auto overflow-x-hidden md:overflow-y-visible md:overflow-x-auto md:mx-5"
           aria-label="Main navigation"
@@ -75,22 +82,31 @@ export default component$(() => {
             </ul>
           ) : null}
         </nav>
+                  */}
         <div class="hidden md:self-center md:flex items-center md:mb-0 fixed w-full md:w-auto md:static justify-end left-0 rtl:left-auto rtl:right-0 bottom-0 p-3 md:p-0">
           <div class="items-center flex justify-between w-full md:w-auto">
             <div class="flex">
               <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
-            </div>
-            <span class="ml-4 rtl:ml-0 rtl:mr-4">
               <a
-                href="https://github.com/onwidget/qwind"
-                class="btn btn-primary ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
+                target={'_blank'}
+                href="#"
+                class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+                aria-label="DmWallet Github"
               >
-                Say "hello"
+                <IconWhatsapp />
               </a>
-            </span>
+              <a
+                target={'_blank'}
+                href="#"
+                class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+                aria-label="DmWallet Github"
+              >
+                <IconTelegram />
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </header>
+    </header >
   );
 });

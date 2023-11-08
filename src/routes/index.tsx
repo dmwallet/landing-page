@@ -24,46 +24,45 @@ export default component$(() => {
       <Hero />
       <Features
         highlight="Features"
-        title="What you get with DmWallet"
+        title="What you get with Dm Wallet"
         subtitle="swap, stake, farm, borrow, lend, and earn interest on your crypto."
         items={[
           {
-            title: "Qwik + Tailwind CSS Integration",
+            title: "Swap tokens",
             description:
-              "A seamless integration between two great frameworks that offer high productivity, performance and versatility.",
-            icon: IconBrandTailwind,
-          },
-          {
-            title: "Ready-to-use Components",
-            description:
-              "Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...",
-            icon: IconApps,
-          },
-          {
-            title: "Best Practices",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-          },
-          {
-            title: "Excellent Page Speed",
-            description:
-              "Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.",
+              "Instantly swap tokens at the best rates. You can also schedule your swaps as limit orders to be executed at a later time.",
             icon: IconRocket,
           },
           {
-            title: "Search Engine Optimization (SEO)",
+            title: "Airdrop Farming",
             description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-            icon: IconBrandGoogle,
+              "You can earn tokens by participating in airdrops. Complete predefined tasks and eligible for airdrops.",
           },
           {
-            title: "Open to new ideas and contributions",
+            title: "Staking",
             description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-            icon: IconBulb
+              "Stake your single tokens to earn rewards. You can also scehdule your rewards to be claimed automatically.",
+          },
+          {
+            title: "Liquidity Farming",
+            description:
+              "Provide Liquidity to all Dexes and earn rewards. You can also stake your LP tokens to earn more rewards.",
+            icon: IconRocket,
+          },
+          {
+            title: "Sceduled Transactions",
+            description:
+              "You can schedule your transactions to be executed at a later time. You can also schedule recurring transactions to be executed periodically.",
+            icon: IconRocket,
+          },
+          {
+            title: "Use any EVM dApps",
+            description:
+              "You can use all dApps on all EVM blockchains what you want. Use Uniswap, Pancakeswap, Lido, Opensea like chatting with dapps.",
           },
         ]}
       />
+      {/*}
       <Steps />
       <FAQs
         title="Frequently Asked Questions"
@@ -104,6 +103,7 @@ export default component$(() => {
       />
       <Stats />
       <CallToAction />
+      */}
     </>
   );
 });
