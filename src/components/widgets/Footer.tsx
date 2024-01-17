@@ -39,9 +39,9 @@ export default component$(() => {
   ];
 
   const social = [
-    { label: "Twitter", icon: IconTwitter, href: "#" },
-    { label: "Instagram", icon: IconInstagram, href: "#" },
-    { label: "Discord", icon: IconDiscord, href: "#" },
+    { label: "Twitter", icon: IconTwitter, href: "https://twitter.com/dmwalletbot" },
+    /*{ label: "Instagram", icon: IconInstagram, href: "#" },
+    { label: "Discord", icon: IconDiscord, href: "#" },*/
     {
       label: "Github",
       icon: IconGithub,
@@ -100,7 +100,7 @@ export default component$(() => {
           </ul>
 
           <div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
-            2023 © DmWallet · All rights reserved.
+            2024 © DmWallet · All rights reserved.
           </div>
         </div>
       </div>
