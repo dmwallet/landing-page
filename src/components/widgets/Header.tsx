@@ -21,7 +21,7 @@ export default component$(() => {
         ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
         : ""
         }`}
-      window: onScroll$={() => {
+      window:onScroll$={() => {
         if (!store.isScrolling && window.scrollY >= 10) {
           store.isScrolling = true;
         } else if (store.isScrolling && window.scrollY < 10) {
@@ -92,7 +92,7 @@ export default component$(() => {
               </a>
               <a
                 target={'_blank'}
-                href="#"
+                href="https://t.me/dmwallet_bot"
                 class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
                 aria-label="DmWallet Github"
               >
